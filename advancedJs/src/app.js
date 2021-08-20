@@ -7,7 +7,7 @@ import UserService from "./services/userService.js"
 import Sale from "./models/sale.js"
 import SaleService from "./services/saleService.js"
 
-     
+      
 // let product1 = new Product(1,"Elma",5)
 // let product2 = new Product(2,"Armut",10)
 // let product3 = new Product(3,"Erik",20)
