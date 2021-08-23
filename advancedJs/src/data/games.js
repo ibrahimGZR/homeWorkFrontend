@@ -22,6 +22,18 @@ export let games = [
         gameName:"Left 4 Dead",
         unitPrice: 80,
         type: "arcade"
+    },
+    {
+        id: 5,
+        gameName:"Left 4 Dead",
+        unitPrice: 90,
+        type: "arcade"
+    },
+    {
+        id: 6,
+        gameName:"LOL",
+        unitPrice: 5,
+        type: "strategy"
     }
     
 ]

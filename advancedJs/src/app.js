@@ -90,4 +90,4 @@ function friday() {
 let gameService2 = new GameService2()
 gameService2.load()
 
-gameService2.add({id:5,gameName:"Wow",unitPrice:50,type:"fps"})
+//gameService2.add({id:5,gameName:"Wow",unitPrice:50,type:"fps"})

@@ -11,6 +11,14 @@ export default class GameService2 {
 
     load() {
         for (let game of games) {
+
+            for (let i = 0; i < games.length; i++) {
+                if (game.gameName == games[i].gameName && games.indexOf(game) != i) {
+                    this.errors.push("Bu oyun ismi tekrar ediyor : " + games[i].gameName, games[i])
+                    games.splice(i, 1)
+                }
+            }
+
             switch (game.type) {
                 case "arcade":
                     if (!this.validateArcade(game)) {
@@ -31,6 +39,7 @@ export default class GameService2 {
         console.log(this.arcades)
         console.log(this.strategies)
         console.log(this.errors)
+        console.log(games)
     }
 
 
